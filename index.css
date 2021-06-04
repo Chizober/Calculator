@@ -56,6 +56,7 @@ button:hover{
 }
 button:focus{
    outline:none;
+   }
 
 .btn-sign{
     background: center #26495c;
