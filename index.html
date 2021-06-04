@@ -8,42 +8,39 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <section class="calculator">
-      <form>
-        <input type="text" name="" id="" class="screen" />
-      </form>
+    <main>
+    <div class="container">
+      <input type="text" class="screen">
       <div class="buttons">
-        <!--blue-->
-        <button type="button" class="btn btn-add" data-num="*">*</button>
-        <button type="button" class="btn btn-blue" data-num="/">/</button>
-        <button type="button" class="btn btn-blue" data-num="-">-</button>
-        <button type="button" class="btn btn-blue" data-num="+">+</button>
-        <!--grey-->
-        <button type="button" class="btn btn-grey" data-num="9">9</button>
-        <button type="button" class="btn btn-grey" data-num="8">8</button>
-        <button type="button" class="btn btn-grey" data-num="7">7</button>
-        <button type="button" class="btn btn-grey" data-num="6">6</button>
-        <button type="button" class="btn btn-grey" data-num="5">5</button>
-        <button type="button" class="btn btn-grey" data-num="4">4</button>
-        <button type="button" class="btn btn-grey" data-num="3">3</button>
-        <button type="button" class="btn btn-grey" data-num="2">2</button>
-        <button type="button" class="btn btn-grey" data-num="1">1</button>
-        <button type="button" class="btn btn-grey" data-num="0">0</button>
-        <button type="button" class="btn btn-grey" data-num=".">.</button>
-        <!--signs-->
-
-        <button type="button" class="btn btn-modulus" data-num="%">%</button>
-        <button type="button" class="btn btn-expo" data-num="**">**</button>
-        <button type="button" class="btn btn-sign" data-num="&#60;" id="line">
-          &#60;
-        </button>
-        <button type="button" class="btn btn-sign" data-num=">">></button>
-        <button type="button" class="btn btn-brac" data-num="(">(</button>
-        <button type="button" class="btn btn-brac" data-num=")">)</button>
-        <button type="button" class="btn-clear btn-grey">C</button>
-        <button type="button" class="btn-equal btn-grey">=</button>
+            <!--row-1-->
+        <button class="btn-ce btn-sign">CE</button>
+        <button class="btn-clear btn-sign">c</button>
+        <button class=" btn-backSpace ">DEL</button>
+         <button type="button" class="btn btn-sign" data-num="/">÷</button>
+      
+            <!--row-2-->
+       <button class="btn btn-grey" data-num="7">7</button>
+        <button  class="btn btn-grey" data-num="8">8</button>
+         <button class="btn btn-grey" data-num="9">9</button>
+         <button class="btn btn-sign" data-num="*">x</button>
+              <!---row-3-->
+        <button class="btn btn-grey" data-num="4">4</button>
+        <button class="btn btn-grey" data-num="5">5</button>
+        <button  class="btn btn-grey" data-num="6">6</button>
+        <button class="btn btn-sign" data-num="-">-</button>
+                <!--row-4-->
+        <button  class="btn btn-grey" data-num="1">1</button>
+        <button  class="btn btn-grey" data-num="2">2</button>
+        <button class="btn btn-grey" data-num="3">3</button>
+         <button  class="btn btn-sign" data-num="+">+</button>
+        
+                <!--row-5-->
+         <button  class="btn btn-grey" data-num="0">0</button>
+         <button  class="btn btn-grey" data-num=".">.</button>
+        <button class="btn-equal">=</button>
       </div>
-    </section>
+    </div>
+  </main>
     <script src="index.js"></script>
   </body>
 </html>
