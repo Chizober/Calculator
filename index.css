@@ -33,15 +33,16 @@ main {
     height:80px;
     color:white;
 }
+
 .screen:focus{
    outline:none;
+}
 
 .buttons{
     display: flex;
     flex-wrap: wrap;
     height:85%;
-    width:100%;
-    
+    width:100%;   
 }
 button{
     flex: 0 0 25%;
@@ -49,14 +50,15 @@ button{
     font-size: 1rem; 
     border-left-width: 0;
     cursor: pointer; 
-    }
+ }
+
 button:hover{
     outline:none;
     box-shadow:none;
 }
 button:focus{
    outline:none;
-   }
+ }
 
 .btn-sign{
     background: center #26495c;
