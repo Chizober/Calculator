@@ -5,7 +5,7 @@
    box-sizing: border-box; 
 }
 body{
-    height: 90%;
+    height: 100%;
      overflow: hidden;  
      width:100%;
      margin:auto;
@@ -43,7 +43,7 @@ main {
 .buttons{
     display: flex;
     flex-wrap: wrap;
-    height:85%;
+    height:100%;
     width:100%;   
 }
 button{
