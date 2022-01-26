@@ -9,11 +9,11 @@ body{
      overflow: hidden;  
      width:100%;
    display:flex;
+   margin:auto;
 }
 
 main {
     padding:60px 0;
-   margin:auto;
     width:100%;
     height: 100%;
 }
