@@ -1,46 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Calculator App</title>
-    <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-    <div class="container">
+    <div class="calculator">
       <input type="text" class="screen">
       <div class="buttons">
-            <!--row-1-->
+            <div class=" row row1">
         <button class="btn-ce btn-sign">CE</button>
         <button class="btn-clear btn-sign">c</button>
         <button class=" btn-backSpace ">DEL</button>
-         <button type="button" class="btn btn-sign" data-num="/">÷</button>
-      
-            <!--row-2-->
-       <button class="btn btn-grey" data-num="7">7</button>
-        <button  class="btn btn-grey" data-num="8">8</button>
-         <button class="btn btn-grey" data-num="9">9</button>
-         <button class="btn btn-sign" data-num="*">x</button>
+              <button type="button" class="btn btn-sign" data-num="/">÷</button>
+              </div>
+<!--              row2 -->
+      <div class=" row row2">
+       <button class="btn" data-num="7">7</button>
+        <button  class="btn" data-num="8">8</button>
+         <button class="btn" data-num="9">9</button>
+        <button class="btn" data-num="*">x</button>
+        </div>
               <!---row-3-->
-        <button class="btn btn-grey" data-num="4">4</button>
-        <button class="btn btn-grey" data-num="5">5</button>
-        <button  class="btn btn-grey" data-num="6">6</button>
-        <button class="btn btn-sign" data-num="-">-</button>
+        <div class=" row row3">
+        <button class="btn" data-num="4">4</button>
+        <button class="btn" data-num="5">5</button>
+        <button  class="btn" data-num="6">6</button>
+          <button class="btn" data-num="-">-</button></div>
                 <!--row-4-->
-        <button  class="btn btn-grey" data-num="1">1</button>
-        <button  class="btn btn-grey" data-num="2">2</button>
-        <button class="btn btn-grey" data-num="3">3</button>
-         <button  class="btn btn-sign" data-num="+">+</button>
+        <div class=" row row4">
+        <button  class="btn" data-num="1">1</button>
+        <button  class="btn" data-num="2">2</button>
+        <button class="btn" data-num="3">3</button>
+          <button  class="btn" data-num="+">+</button></div>
         
                 <!--row-5-->
-         <button  class="btn btn-grey" data-num="0">0</button>
-         <button  class="btn btn-grey" data-num=".">.</button>
-        <button class="btn-equal">=</button>
-      </div>
+        <div class=" row row5">
+         <button  class="btn" data-num="0">0</button>
+         <button  class="btn" data-num=".">.</button>
+          <button class="btn-equal">=</button>
+          </div>
     </div>
-  </main>
+      
     <script src="index.js"></script>
+      
+  </body>
+</html>
   </body>
 </html>
